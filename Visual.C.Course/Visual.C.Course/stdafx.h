@@ -35,3 +35,11 @@
 #include <atlstr.h>
 
 // TODO: reference additional headers your program requires here
+
+
+//Add global included classes
+#include <string>
+using namespace std;
+//Smartpointers
+#include <iostream>
+#include <memory>

@@ -1,0 +1,74 @@
+/*
+Projects Types:
+	New: 
+		Windows Store Application: New Microsoft implementations on base of C++ fpr
+		MFC: Microsoft Foundation Classes
+	Legacy projects: 
+		ATL: Components modeling
+		CLR: DotNet applications using C++ language
+		General:
+		Test:
+		Win32: Windows 32 Projects
+		MFC: 
+
+		CLR: Using the CLR will provide you with the most expressive set of libraries (the entire .NET framework), at the cost of restricting your executable to requiring the .NET framework to be installed at runtime, as well as limiting you to the Windows platform (however, all 4 listed technologies are windows only, so the platform limitation is probably the least troublesome).
+				However, CLR requires you to use the C++/CLI extensions to the C++ language, so you'll, in essense, need to learn some extra language features in order to use this. Doing so gives you many "extras," such as access to the .net libraries, full garbage collection, etc.
+
+		ATL/MFC: ATL & MFC are somewhat trickier to decide between. I'd refer you to MSDN's page for choosing in order to decide between them. The nice thing about ATL/MFC is that you don't need the .NET framework, only the VC/MFC runtimes to be installed for deployment.
+
+		Win32: Using Win32 directly provides the smallest executables, with the fewest dependencies, but is more work to write. You have the least amount of helper libraries, so you're writing more of the code.
+
+*/
+
+References: Add to stdafx.h -> By doing this way add the reference to all the classes
+
+//It is a compiled language, for each system.
+//Has not a IML (intermediate modelation language/presentation)
+//More difficulty and complicated to understand because that, has not a interpreter, it is compiled
+
+/*
+	C: Not object oriented
+	C++: Object oriented
+*/
+
+
+Each class has 2 files: the header(interface/description) .h and the implementation .cpp
+	
+Can be used the header and cpp:
+
+.h
+void Foo();
+.cpp
+void Person::Foo()
+{
+}
+
+Or just header:
+.h
+void Foo()
+{
+}
+
+
+
+
+			//Two types of allcationg in memory
+
+			//1 - This way constructor will be called
+			//and we will have an instance
+			//Stack memory (is cleaned automaticaly)
+			Person p;
+
+			//2 - Heap memory (Pointer)(Address of the memory)
+			Person *pp = new Person;
+
+
+
+
+			//Smart Pointers - Next evolution in pointers
+			//Because is not clear when to delete normal pointers
+			//Include iostream to stdafx.h
+
+
+			//auto = var in c#
+			auto p = CreatePerson4("Marcelo4");
