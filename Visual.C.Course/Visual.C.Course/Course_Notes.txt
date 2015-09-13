@@ -72,3 +72,22 @@ void Foo()
 
 			//auto = var in c#
 			auto p = CreatePerson4("Marcelo4");
+
+
+
+
+//Arguments to use c++
+//1. Speed and performance
+//2. Portability - if you write nice and clean code, 
+//c++ is portable. 
+//3. Custom device support - many devices support
+//Main language used for new devices
+//Has lambda, smart pointers, 
+//get access to assembly using high level language, etc
+//c++ evolves, old programmers evolve togheter
+//Cientific computation
+
+//Primarly fields to use c++
+//1. Quant Finance
+//2. Game Dev
+//3. Embedded
